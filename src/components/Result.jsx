@@ -7,8 +7,11 @@ const Result = () => {
     const { text } = useText();
 
     return (
-        <div className='result'>
-            <ReactMarkdown children={text} />
+        <div className="resultdiv">
+            <p>Result</p>
+            <div className='result'>
+                <ReactMarkdown children={text} />
+            </div>
         </div>
     )
 }

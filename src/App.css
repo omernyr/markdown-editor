@@ -1,7 +1,9 @@
 .App {
   display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
 }
-
 .markdiv {
   width: 50%;
   height: 100vh;
@@ -9,23 +11,32 @@
   color: #ddd;
   padding: 0.67em 1em;
   overflow: scroll;
-  
 }
 .markdown {
   width: 95%;
-  height: 80vh; 
+  height: 85vh;
   background-color: #2d2d2d;
   color: #537373;
   font-size: 17px;
   padding: 1em;
   outline: none;
+  border-radius: 0.3em;
+  border: 1px solid #537373;
+  resize: none;
+}
+.resultdiv {
+  min-width: 50%;
+  height: 100vh;
+  padding: 0.67em 1em;
 }
 .result {
-  padding: 0.5em 1em; 
+  width: 95%;
+  height: 85vh;
+  background-color: rgb(255, 255, 255);
+  padding: 1em;
+  border-radius: 0.3em;
   overflow: hidden;
-  width: 50%;
-  height: 100vh;
-  background-color: rgb(255, 182, 127);
+  border: 1px solid #ddd;
 }
 .result img {
   width: 400px;
