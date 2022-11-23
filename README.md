@@ -21,4 +21,4 @@ Tools 🛠️
 
 ## Demo 
 
-(![Demo](src/clip.gif))
+![Demo](src/clip.gif)
