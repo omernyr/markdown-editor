@@ -23,11 +23,11 @@ const Result = () => {
                 <p>Result</p>
                 <div style={{ display: "flex", alignItems: "center", gap: "5px" }}>
                     <CopyToClipboard text={text}>
-                        <button onClick={handleCopied}>Copy</button>
+                        <button style={{ borderRadius: "3px", padding: "0.5em 0.67em", border: "1px solid #767651", backgroundColor: "transparent"}} onClick={handleCopied}>Copy</button>
                     </CopyToClipboard>
                     {copied &&
                         <span>
-                            <img style={{ width: "50px" }} src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1"
+                            <img style={{ width: "50px", borderRadius: "3px", transition: "0.3s" }} src="https://media.tenor.com/oCJsYj0GcEkAAAAM/copy-paste.gif"
                                 alt="" />
                         </span>
                     }
