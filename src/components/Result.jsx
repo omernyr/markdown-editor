@@ -19,7 +19,7 @@ const Result = () => {
 
     return (
         <div className="resultdiv">
-            <div style={{ display: "flex", justifyContent: "space-between", padding: "0.3em" }}>
+            <div style={{ display: "flex", alignItems: "center", lineHeight: "10px", justifyContent: "space-between", padding: "0.3em" }}>
                 <p>Result</p>
                 <div style={{ display: "flex", alignItems: "center", gap: "5px" }}>
                     <CopyToClipboard text={text}>
