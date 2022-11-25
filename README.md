@@ -4,7 +4,7 @@ In this project, I made a markdown editor.
 
 ## Live Link of the Project
 
-[Markdown Editor](https://vsco-app-clone.netlify.app/)
+[Markdown Editor](https://darkdown-editor.netlify.app/)
 
 Tools 🛠️
 
